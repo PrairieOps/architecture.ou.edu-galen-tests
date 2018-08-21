@@ -2,7 +2,7 @@
     page_name       /
     page_url        https://architecture.ou.edu${page_name}
     page_spec_url   specs/base.gspec
-    wait            15s
+    wait            30s
 @@ Parameterized
     | viewport  | size      |
     | mobile    | 320x480   |

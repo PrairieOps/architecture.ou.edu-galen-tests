@@ -3,7 +3,7 @@
   "name" : "/ tablet viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/ 768x1024 wait 15s",
+      "name" : "https://architecture.ou.edu/ 768x1024 wait 30s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/base.gspec --include \"tablet\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/base.gspec included tags: tablet",
           "status" : "info",
-          "time" : 1534881613899,
+          "time" : 1534881717083,
           "includedTags" : [ "tablet" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -138,10 +138,10 @@
           "screenshot" : "layout-2-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881612362,
+        "time" : 1534881715271,
         "type" : "node"
       } ],
-      "time" : 1534881607322,
+      "time" : 1534881710956,
       "type" : "node"
     } ]
   }
