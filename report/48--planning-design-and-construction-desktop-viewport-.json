@@ -1,0 +1,146 @@
+{
+  "testId" : "48--planning-design-and-construction-desktop-viewport-",
+  "name" : "/planning-design-and-construction/ desktop viewport ",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://architecture.ou.edu/planning-design-and-construction/ 1920x1080 wait 5s",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check specs/not.homepage.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1534880984619,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "specs/base.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "global-header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "visible",
+                "highlight" : [ "global-header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside viewport",
+                "highlight" : [ "global-header", "viewport" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "visible",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside viewport",
+                "highlight" : [ "logo", "viewport" ]
+              } ]
+            }, {
+              "name" : "title",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "visible",
+                "highlight" : [ "title" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "specs/not.homepage.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "inside viewport",
+                "errors" : [ "\"title\" is not completely inside. The offset is 236px." ],
+                "highlight" : [ "title", "viewport" ]
+              } ]
+            }, {
+              "name" : "post",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "visible",
+                "highlight" : [ "post" ]
+              } ]
+            }, {
+              "name" : "footer_widgets",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "visible",
+                "highlight" : [ "footer_widgets" ]
+              } ]
+            }, {
+              "name" : "hamburger",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/base.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "post" : {
+              "area" : [ 414, 1097, 1080, 2081 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 1908, 1006 ]
+            },
+            "footer_widgets" : {
+              "area" : [ 414, 3206, 286, 115 ]
+            },
+            "logo" : {
+              "area" : [ 9, 6, 276, 118 ]
+            },
+            "title" : {
+              "area" : [ 414, 1197, 1080, 45 ]
+            },
+            "global-header" : {
+              "area" : [ 0, 0, 1908, 31 ]
+            }
+          },
+          "screenshot" : "layout-48-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1534880982621,
+        "type" : "node"
+      } ],
+      "time" : 1534880979174,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,13 @@
+@@ Set
+    page_name       /give-to-architecture/
+    page_url        https://architecture.ou.edu${page_name}
+    page_spec_url   specs/not.homepage.gspec
+    wait            5s
+@@ Parameterized
+    | viewport  | size      |
+    | mobile    | 320x480   |
+    | tablet    | 768x1024  |
+    | desktop   | 1920x1080 |
+${page_name} ${viewport} viewport ${full_name}
+    ${page_url} ${size} wait ${wait}
+        check ${page_spec_url} --include "${viewport}"
