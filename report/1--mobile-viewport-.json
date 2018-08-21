@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/base.gspec included tags: mobile",
           "status" : "info",
-          "time" : 1534881705511,
+          "time" : 1534882383784,
           "includedTags" : [ "mobile" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -114,34 +114,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 20, 151, 268, 5845 ]
+              "area" : [ 20, 492, 383, 4691 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 308, 394 ]
+              "area" : [ 0, 0, 423, 356 ]
             },
             "footer_widgets" : {
-              "area" : [ 20, 6021, 268, 226 ]
+              "area" : [ 20, 5208, 383, 205 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 216, 92 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 20, 389, 268, 90 ]
+              "area" : [ 20, 727, 383, 45 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 308, 31 ]
+              "area" : [ 0, 0, 423, 31 ]
             },
             "hamburger" : {
-              "area" : [ 268, 40, 30, 23 ]
+              "area" : [ 383, 53, 30, 23 ]
             }
           },
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881703889,
+        "time" : 1534882382159,
         "type" : "node"
       } ],
-      "time" : 1534881698283,
+      "time" : 1534882376896,
       "type" : "node"
     } ]
   }

@@ -1,8 +1,8 @@
 {
   "tests" : [ {
     "name" : "/ mobile viewport ",
-    "startedAt" : 1534881698282,
-    "endedAt" : 1534881710956,
+    "startedAt" : 1534882376894,
+    "endedAt" : 1534882383872,
     "failed" : false,
     "statistic" : {
       "passed" : 9,
@@ -11,12 +11,12 @@
       "total" : 9
     },
     "testId" : "1--mobile-viewport-",
-    "duration" : 12674,
+    "duration" : 6978,
     "failed" : false
   }, {
     "name" : "/ tablet viewport ",
-    "startedAt" : 1534881710956,
-    "endedAt" : 1534881717753,
+    "startedAt" : 1534882383873,
+    "endedAt" : 1534882389905,
     "failed" : false,
     "statistic" : {
       "passed" : 9,
@@ -25,12 +25,12 @@
       "total" : 9
     },
     "testId" : "2--tablet-viewport-",
-    "duration" : 6797,
+    "duration" : 6032,
     "failed" : false
   }, {
     "name" : "/ desktop viewport ",
-    "startedAt" : 1534881717753,
-    "endedAt" : 1534881725226,
+    "startedAt" : 1534882389905,
+    "endedAt" : 1534882397293,
     "failed" : false,
     "statistic" : {
       "passed" : 8,
@@ -39,7 +39,7 @@
       "total" : 8
     },
     "testId" : "3--desktop-viewport-",
-    "duration" : 7473,
+    "duration" : 7388,
     "failed" : false
   } ]
 }
