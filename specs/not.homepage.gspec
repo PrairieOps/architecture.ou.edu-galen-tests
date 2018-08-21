@@ -1,0 +1,7 @@
+@import base.gspec
+
+= Main section =
+    @on *
+
+        title:
+            inside viewport

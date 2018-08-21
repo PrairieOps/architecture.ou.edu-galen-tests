@@ -1,0 +1,43 @@
+@objects
+    global-header body > div.globalheader
+
+    title article > div.entry-content div.wpb_row > div.wpb_column > div.vc_column-inner > div.wpb_wrapper > h2.vc_custom_heading
+
+    hamburger #page-toggle-mainmenu
+
+    logo #page-header > div > div.page-logo > a > img
+
+    post article > div.entry-content
+
+    footer_widgets #page > footer > div.page-bottom-footer.style-2 > div > div > div > div aside
+
+= Main section =
+    @on *
+
+        global-header:
+            visible
+            inside viewport
+
+        logo:
+            visible
+            inside viewport
+
+        title:
+            visible
+
+        post:
+            visible
+
+        footer_widgets:
+            visible
+
+    @on desktop
+
+        hamburger:
+            absent
+
+    @on mobile, tablet
+
+        hamburger:
+            visible
+            inside viewport
