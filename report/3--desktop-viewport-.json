@@ -3,7 +3,7 @@
   "name" : "/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/ 1920x1080 wait 15s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/base.gspec --include \"desktop\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/base.gspec included tags: desktop",
           "status" : "info",
-          "time" : 1534879647883,
+          "time" : 1534881621106,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -127,10 +127,10 @@
           "screenshot" : "layout-3-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534879645962,
+        "time" : 1534881618856,
         "type" : "node"
       } ],
-      "time" : 1534879641811,
+      "time" : 1534881614486,
       "type" : "node"
     } ]
   }
