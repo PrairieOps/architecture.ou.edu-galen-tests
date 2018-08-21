@@ -3,7 +3,7 @@
   "name" : "/directory/ tablet viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/directory/ 768x1024 wait 5s",
+      "name" : "https://architecture.ou.edu/directory/ 768x1024 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"tablet\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: tablet",
           "status" : "info",
-          "time" : 1534880802321,
+          "time" : 1534883603005,
           "includedTags" : [ "tablet" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -122,34 +122,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 88, 186, 580, 8693 ]
+              "area" : [ 86, 186, 580, 8607 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 756, 950 ]
+              "area" : [ 0, 0, 753, 915 ]
             },
             "footer_widgets" : {
-              "area" : [ 88, 8906, 580, 205 ]
+              "area" : [ 86, 8820, 580, 205 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 88, 221, 580, 37 ]
+              "area" : [ 86, 221, 580, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 756, 31 ]
+              "area" : [ 0, 0, 753, 31 ]
             },
             "hamburger" : {
-              "area" : [ 716, 53, 30, 23 ]
+              "area" : [ 713, 53, 30, 23 ]
             }
           },
           "screenshot" : "layout-17-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880801029,
+        "time" : 1534883598627,
         "type" : "node"
       } ],
-      "time" : 1534880797596,
+      "time" : 1534883595568,
       "type" : "node"
     } ]
   }

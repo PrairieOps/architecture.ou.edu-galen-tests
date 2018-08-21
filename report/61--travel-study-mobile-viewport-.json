@@ -3,7 +3,7 @@
   "name" : "/travel-study/ mobile viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/travel-study/ 320x480 wait 5s",
+      "name" : "https://architecture.ou.edu/travel-study/ 320x480 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"mobile\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: mobile",
           "status" : "info",
-          "time" : 1534881057334,
+          "time" : 1534883941740,
           "includedTags" : [ "mobile" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -122,34 +122,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 20, 186, 268, 8038 ]
+              "area" : [ 20, 186, 295, 8063 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 308, 394 ]
+              "area" : [ 0, 0, 335, 356 ]
             },
             "footer_widgets" : {
-              "area" : [ 20, 8249, 268, 226 ]
+              "area" : [ 20, 8274, 295, 226 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 216, 92 ]
+              "area" : [ 9, 6, 234, 100 ]
             },
             "title" : {
-              "area" : [ 20, 186, 268, 37 ]
+              "area" : [ 20, 186, 295, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 308, 31 ]
+              "area" : [ 0, 0, 335, 31 ]
             },
             "hamburger" : {
-              "area" : [ 268, 40, 30, 23 ]
+              "area" : [ 295, 44, 30, 23 ]
             }
           },
           "screenshot" : "layout-61-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881056412,
+        "time" : 1534883936932,
         "type" : "node"
       } ],
-      "time" : 1534881053542,
+      "time" : 1534883932193,
       "type" : "node"
     } ]
   }

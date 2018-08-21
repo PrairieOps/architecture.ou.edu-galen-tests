@@ -3,15 +3,15 @@
   "name" : "/urban-design/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/urban-design/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/urban-design/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
         "status" : "info",
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
-          "status" : "error",
-          "time" : 1534881082021,
+          "status" : "info",
+          "time" : 1534883972322,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -69,13 +69,13 @@
                 "name" : "visible",
                 "highlight" : [ "title" ]
               }, {
-                "status" : "error",
+                "status" : "warn",
                 "place" : {
                   "filePath" : "specs/not.homepage.gspec",
                   "lineNumber" : 7
                 },
                 "name" : "inside viewport",
-                "errors" : [ "\"title\" is not completely inside. The offset is 236px." ],
+                "errors" : [ "\"title\" is not completely inside. The offset is 235px." ],
                 "highlight" : [ "title", "viewport" ]
               } ]
             }, {
@@ -115,31 +115,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 1097, 1080, 1858 ]
+              "area" : [ 412, 1062, 1080, 1848 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 2983, 286, 115 ]
+              "area" : [ 412, 2937, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 414, 1197, 1080, 45 ]
+              "area" : [ 412, 1161, 1080, 45 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-66-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881080640,
+        "time" : 1534883968073,
         "type" : "node"
       } ],
-      "time" : 1534881077469,
+      "time" : 1534883965223,
       "type" : "node"
     } ]
   }

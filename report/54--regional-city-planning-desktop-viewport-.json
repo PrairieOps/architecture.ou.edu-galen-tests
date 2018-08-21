@@ -3,15 +3,15 @@
   "name" : "/regional-city-planning/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/regional-city-planning/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/regional-city-planning/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
         "status" : "info",
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
-          "status" : "error",
-          "time" : 1534881018296,
+          "status" : "info",
+          "time" : 1534883872034,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -69,13 +69,13 @@
                 "name" : "visible",
                 "highlight" : [ "title" ]
               }, {
-                "status" : "error",
+                "status" : "warn",
                 "place" : {
                   "filePath" : "specs/not.homepage.gspec",
                   "lineNumber" : 7
                 },
                 "name" : "inside viewport",
-                "errors" : [ "\"title\" is not completely inside. The offset is 236px." ],
+                "errors" : [ "\"title\" is not completely inside. The offset is 235px." ],
                 "highlight" : [ "title", "viewport" ]
               } ]
             }, {
@@ -115,31 +115,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 1097, 1080, 2262 ]
+              "area" : [ 412, 1062, 1080, 2246 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 3387, 286, 115 ]
+              "area" : [ 412, 3335, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 414, 1197, 1080, 45 ]
+              "area" : [ 412, 1161, 1080, 45 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-54-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881016718,
+        "time" : 1534883867070,
         "type" : "node"
       } ],
-      "time" : 1534881013367,
+      "time" : 1534883863955,
       "type" : "node"
     } ]
   }

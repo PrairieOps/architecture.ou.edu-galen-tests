@@ -3,7 +3,7 @@
   "name" : "/give-to-architecture/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/give-to-architecture/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/give-to-architecture/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
           "status" : "info",
-          "time" : 1534880859462,
+          "time" : 1534883670363,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -114,31 +114,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 186, 1080, 3038 ]
+              "area" : [ 412, 186, 1080, 3016 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 3252, 286, 115 ]
+              "area" : [ 412, 3229, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 414, 186, 1080, 37 ]
+              "area" : [ 412, 186, 1080, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-27-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880857541,
+        "time" : 1534883667291,
         "type" : "node"
       } ],
-      "time" : 1534880854081,
+      "time" : 1534883664261,
       "type" : "node"
     } ]
   }

@@ -3,15 +3,15 @@
   "name" : "/urban-design/ mobile viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/urban-design/ 320x480 wait 5s",
+      "name" : "https://architecture.ou.edu/urban-design/ 320x480 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"mobile\"",
         "status" : "info",
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: mobile",
-          "status" : "error",
-          "time" : 1534881072063,
+          "status" : "info",
+          "time" : 1534883958764,
           "includedTags" : [ "mobile" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -69,13 +69,13 @@
                 "name" : "visible",
                 "highlight" : [ "title" ]
               }, {
-                "status" : "error",
+                "status" : "warn",
                 "place" : {
                   "filePath" : "specs/not.homepage.gspec",
                   "lineNumber" : 7
                 },
                 "name" : "inside viewport",
-                "errors" : [ "\"title\" is not completely inside. The offset is 430px." ],
+                "errors" : [ "\"title\" is not completely inside. The offset is 465px." ],
                 "highlight" : [ "title", "viewport" ]
               } ]
             }, {
@@ -123,34 +123,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 20, 541, 268, 3403 ]
+              "area" : [ 20, 541, 330, 3045 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 308, 394 ]
+              "area" : [ 0, 0, 370, 356 ]
             },
             "footer_widgets" : {
-              "area" : [ 20, 3969, 268, 226 ]
+              "area" : [ 20, 3610, 330, 226 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 216, 92 ]
+              "area" : [ 9, 6, 257, 110 ]
             },
             "title" : {
-              "area" : [ 20, 779, 268, 45 ]
+              "area" : [ 20, 776, 330, 45 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 308, 31 ]
+              "area" : [ 0, 0, 370, 31 ]
             },
             "hamburger" : {
-              "area" : [ 268, 40, 30, 23 ]
+              "area" : [ 330, 49, 30, 23 ]
             }
           },
           "screenshot" : "layout-64-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881071082,
+        "time" : 1534883956054,
         "type" : "node"
       } ],
-      "time" : 1534881067969,
+      "time" : 1534883953192,
       "type" : "node"
     } ]
   }

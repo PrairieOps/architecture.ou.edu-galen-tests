@@ -3,7 +3,7 @@
   "name" : "/travel-study/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/travel-study/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/travel-study/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
           "status" : "info",
-          "time" : 1534881067409,
+          "time" : 1534883953119,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -114,31 +114,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 186, 1080, 2354 ]
+              "area" : [ 412, 186, 1080, 2345 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 2568, 286, 115 ]
+              "area" : [ 412, 2558, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 414, 186, 1080, 37 ]
+              "area" : [ 412, 186, 1080, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-63-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534881065972,
+        "time" : 1534883950063,
         "type" : "node"
       } ],
-      "time" : 1534881062625,
+      "time" : 1534883946853,
       "type" : "node"
     } ]
   }

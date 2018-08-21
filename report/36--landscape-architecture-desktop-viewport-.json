@@ -3,15 +3,15 @@
   "name" : "/landscape-architecture/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/landscape-architecture/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/landscape-architecture/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
         "status" : "info",
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
-          "status" : "error",
-          "time" : 1534880912744,
+          "status" : "info",
+          "time" : 1534883738998,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -69,7 +69,7 @@
                 "name" : "visible",
                 "highlight" : [ "title" ]
               }, {
-                "status" : "error",
+                "status" : "warn",
                 "place" : {
                   "filePath" : "specs/not.homepage.gspec",
                   "lineNumber" : 7
@@ -115,31 +115,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 1097, 1080, 2897 ]
+              "area" : [ 412, 1062, 1080, 2884 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 4022, 286, 115 ]
+              "area" : [ 412, 3973, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 1154, 1041, 340, 18 ]
+              "area" : [ 1152, 1006, 340, 18 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-36-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880911002,
+        "time" : 1534883733848,
         "type" : "node"
       } ],
-      "time" : 1534880907214,
+      "time" : 1534883730164,
       "type" : "node"
     } ]
   }

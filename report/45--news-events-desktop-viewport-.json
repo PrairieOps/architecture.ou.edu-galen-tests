@@ -3,7 +3,7 @@
   "name" : "/news-events/ desktop viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/news-events/ 1920x1080 wait 5s",
+      "name" : "https://architecture.ou.edu/news-events/ 1920x1080 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"desktop\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: desktop",
           "status" : "info",
-          "time" : 1534880965471,
+          "time" : 1534883810768,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -114,31 +114,31 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 414, 186, 1080, 4139 ]
+              "area" : [ 412, 186, 1080, 4116 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 1908, 1006 ]
+              "area" : [ 0, 0, 1905, 971 ]
             },
             "footer_widgets" : {
-              "area" : [ 414, 4353, 286, 115 ]
+              "area" : [ 412, 4330, 286, 115 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 414, 186, 1080, 37 ]
+              "area" : [ 412, 186, 1080, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 1908, 31 ]
+              "area" : [ 0, 0, 1905, 31 ]
             }
           },
           "screenshot" : "layout-45-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880963866,
+        "time" : 1534883805891,
         "type" : "node"
       } ],
-      "time" : 1534880959132,
+      "time" : 1534883801801,
       "type" : "node"
     } ]
   }

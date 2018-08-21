@@ -3,7 +3,7 @@
   "name" : "/community-engagement/ mobile viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/community-engagement/ 320x480 wait 5s",
+      "name" : "https://architecture.ou.edu/community-engagement/ 320x480 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"mobile\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: mobile",
           "status" : "info",
-          "time" : 1534880728250,
+          "time" : 1534883503037,
           "includedTags" : [ "mobile" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -122,34 +122,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 20, 186, 268, 13518 ]
+              "area" : [ 20, 186, 379, 12738 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 308, 394 ]
+              "area" : [ 0, 0, 419, 371 ]
             },
             "footer_widgets" : {
-              "area" : [ 20, 13729, 268, 226 ]
+              "area" : [ 20, 12949, 379, 205 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 216, 92 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 20, 186, 268, 75 ]
+              "area" : [ 20, 186, 379, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 308, 31 ]
+              "area" : [ 0, 0, 419, 31 ]
             },
             "hamburger" : {
-              "area" : [ 268, 40, 30, 23 ]
+              "area" : [ 379, 53, 30, 23 ]
             }
           },
           "screenshot" : "layout-4-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880727298,
+        "time" : 1534883495120,
         "type" : "node"
       } ],
-      "time" : 1534880697942,
+      "time" : 1534883491544,
       "type" : "node"
     } ]
   }

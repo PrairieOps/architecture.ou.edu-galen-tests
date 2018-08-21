@@ -3,7 +3,7 @@
   "name" : "/legacy/ mobile viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/legacy/ 320x480 wait 5s",
+      "name" : "https://architecture.ou.edu/legacy/ 320x480 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"mobile\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: mobile",
           "status" : "info",
-          "time" : 1534880917384,
+          "time" : 1534883749121,
           "includedTags" : [ "mobile" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -122,34 +122,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 20, 186, 268, 15386 ]
+              "area" : [ 20, 186, 383, 12182 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 308, 394 ]
+              "area" : [ 0, 0, 423, 371 ]
             },
             "footer_widgets" : {
-              "area" : [ 20, 15597, 268, 226 ]
+              "area" : [ 20, 12393, 383, 205 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 216, 92 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 20, 186, 268, 37 ]
+              "area" : [ 20, 186, 383, 37 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 308, 31 ]
+              "area" : [ 0, 0, 423, 31 ]
             },
             "hamburger" : {
-              "area" : [ 268, 40, 30, 23 ]
+              "area" : [ 383, 53, 30, 23 ]
             }
           },
           "screenshot" : "layout-37-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880916420,
+        "time" : 1534883742041,
         "type" : "node"
       } ],
-      "time" : 1534880913460,
+      "time" : 1534883739075,
       "type" : "node"
     } ]
   }

@@ -3,15 +3,15 @@
   "name" : "/landscape-architecture/ tablet viewport ",
   "report" : {
     "nodes" : [ {
-      "name" : "https://architecture.ou.edu/landscape-architecture/ 768x1024 wait 5s",
+      "name" : "https://architecture.ou.edu/landscape-architecture/ 768x1024 wait 0s",
       "status" : "info",
       "nodes" : [ {
         "name" : "check specs/not.homepage.gspec --include \"tablet\"",
         "status" : "info",
         "nodes" : [ {
           "name" : "Check layout: specs/not.homepage.gspec included tags: tablet",
-          "status" : "error",
-          "time" : 1534880906657,
+          "status" : "info",
+          "time" : 1534883730091,
           "includedTags" : [ "tablet" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -69,7 +69,7 @@
                 "name" : "visible",
                 "highlight" : [ "title" ]
               }, {
-                "status" : "error",
+                "status" : "warn",
                 "place" : {
                   "filePath" : "specs/not.homepage.gspec",
                   "lineNumber" : 7
@@ -123,34 +123,34 @@
           } ],
           "objects" : {
             "post" : {
-              "area" : [ 88, 1041, 580, 3308 ]
+              "area" : [ 86, 1006, 580, 3284 ]
             },
             "viewport" : {
-              "area" : [ 0, 0, 756, 950 ]
+              "area" : [ 0, 0, 753, 915 ]
             },
             "footer_widgets" : {
-              "area" : [ 88, 4377, 580, 205 ]
+              "area" : [ 86, 4317, 580, 205 ]
             },
             "logo" : {
-              "area" : [ 9, 6, 276, 118 ]
+              "area" : [ 9, 6, 277, 118 ]
             },
             "title" : {
-              "area" : [ 494, 985, 173, 18 ]
+              "area" : [ 493, 950, 173, 18 ]
             },
             "global-header" : {
-              "area" : [ 0, 0, 756, 31 ]
+              "area" : [ 0, 0, 753, 31 ]
             },
             "hamburger" : {
-              "area" : [ 716, 53, 30, 23 ]
+              "area" : [ 713, 53, 30, 23 ]
             }
           },
           "screenshot" : "layout-35-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534880905047,
+        "time" : 1534883726303,
         "type" : "node"
       } ],
-      "time" : 1534880901413,
+      "time" : 1534883722964,
       "type" : "node"
     } ]
   }
